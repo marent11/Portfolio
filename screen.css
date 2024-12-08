@@ -44,12 +44,11 @@ header nav a:hover {
 .container {
     max-width: 800px;
     margin: 50px auto;
-    text-align: left;
 }
 
 .profile {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 30px;
 }
 
@@ -63,25 +62,25 @@ header nav a:hover {
 }
 
 .profile-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block; /* Ensures a block layout */
+    text-align: left;
 }
 
 .profile-text h2 {
-    font-size: 24px;
-    margin: 0;
+    font-size: 28px;
+    margin: 0 0 5px 0;
 }
 
 .profile-text h3 {
     font-size: 20px;
     color: #555;
-    margin: 5px 0 15px 0;
+    margin: 0 0 15px 0;
 }
 
 .profile-text p {
     font-size: 16px;
     line-height: 1.5;
+    margin: 0;
 }
 
 .buttons {
