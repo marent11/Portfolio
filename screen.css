@@ -81,8 +81,8 @@ header nav a:hover {
     text-decoration: underline;
 }
 .profile img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
