@@ -64,6 +64,7 @@ header nav a:hover {
 .profile-text {
     display: block; 
     text-align: left;
+    margin-top: 30px;
 }
 
 .profile-text h2 {
