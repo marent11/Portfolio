@@ -63,24 +63,26 @@ header nav a:hover {
 
 .profile-text {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: column; /* Ensures stacking of child elements */
+    align-items: flex-start; /* Aligns text to the left */
+    gap: 10px; /* Adds space between h2, h3, and p */
 }
 
 .profile-text h2 {
     font-size: 28px;
-    margin: 0 0 5px;
+    margin: 0;
 }
 
 .profile-text h3 {
     font-size: 20px;
     color: #555;
-    margin: 0 0 15px;
+    margin: 0;
 }
 
 .profile-text p {
     font-size: 16px;
     line-height: 1.5;
+    margin: 0;
 }
 
 .buttons {
