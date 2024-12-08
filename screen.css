@@ -1,4 +1,27 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
 }
