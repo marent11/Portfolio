@@ -88,11 +88,25 @@ header nav a:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     margin-right: 20px;
 }
-.profile h2 {
-    font-size: 24px;
-    margin: 15px 0;
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.profile p {
+
+.profile-text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-text h3 {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0 15px 0;
+}
+
+.profile-text p {
     font-size: 16px;
     line-height: 1.5;
 }
