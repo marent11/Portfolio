@@ -54,21 +54,16 @@ header nav a:hover {
 }
 
 .profile img {
-    width: 350px;
-    height: 350px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    position: relative;
 }
 
 .profile-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; 
+    display: block; /* This ensures normal vertical flow of text */
+    text-align: left;
 }
 
 .profile-text h2 {
@@ -78,16 +73,14 @@ header nav a:hover {
 
 .profile-text h3 {
     font-size: 20px;
-    color: #f9f9f9;
-    margin: 0;
+    color: #555;
+    margin: 5px 0;
 }
 
 .profile-text p {
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
-    color: #f9f9f9;
-    max-width: 600px; /* Ensures text does not stretch too wide */
+    margin: 10px 0 0 0;
 }
 
 .buttons {
