@@ -63,9 +63,10 @@ header nav a:hover {
 
 .profile-text {
     display: flex;
-    flex-direction: column; /* Ensures stacking of child elements */
-    align-items: flex-start; /* Aligns text to the left */
-    gap: 10px; /* Adds space between h2, h3, and p */
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .profile-text h2 {
@@ -83,6 +84,7 @@ header nav a:hover {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
+    max-width: 600px; /* Ensures text does not stretch too wide */
 }
 
 .buttons {
