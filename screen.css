@@ -176,7 +176,7 @@ header nav a:hover {
     background-color: #b96f00;
 }
 .buttonr {
-    background-color: #008CBA;
+    background-color: #8bc34a;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -194,6 +194,6 @@ header nav a:hover {
     background-color: #8bc34a;  
     color: white;
 }
-.resume .button:hover {
+.buttonr {
     background-color: #73a13e;
 }
