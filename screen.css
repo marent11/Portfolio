@@ -262,3 +262,42 @@ header nav a:hover {
     color: #333;
     margin-bottom: 20px;
 }
+.personal-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.personal-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.personal-details {
+    flex: 1;
+}
+
+.personal-intro p, .personal-experiences p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.personal-hobbies ul, .personal-fun-facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-hobbies li, .personal-fun-facts li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.personal-hobbies li::before, .personal-fun-facts li::before {
+    content: "• ";
+    color: #8bc34a;
+    font-weight: bold;
+    margin-right: 5px;
+}
