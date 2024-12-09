@@ -162,7 +162,7 @@ header nav a:hover {
 }
 
 .project .button {
-    background-color: #03a9f4;
+    background-color: #ff9800;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -173,10 +173,10 @@ header nav a:hover {
 }
 
 .project .button:hover {
-    background-color: #005f6b;
+    background-color: #b96f00;
 }
-.resume .button {
-    background-color: #8bc34a;
+.button {
+    background-color: #008CBA;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -184,8 +184,16 @@ header nav a:hover {
     font-size: 16px;
     display: inline-block;
     margin-top: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
-
+.button:hover {
+    background-color: #005f6b;
+}
+.resume .button {
+    background-color: #8bc34a;  
+    color: white;
+}
 .resume .button:hover {
     background-color: #73a13e;
 }
