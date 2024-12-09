@@ -194,6 +194,6 @@ header nav a:hover {
     background-color: #8bc34a;  
     color: white;
 }
-.buttonr {
+.buttonr:hover {
     background-color: #73a13e;
 }
