@@ -251,3 +251,14 @@ header nav a:hover {
     line-height: 1.6;
     color: #555;
 }
+
+.personal-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.personal-section h2, .personal-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
