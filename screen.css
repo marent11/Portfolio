@@ -275,9 +275,13 @@ header nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .project-content {
-    display: flex;
-    align-items: flex-start; /* aligns items to the top */
-    gap: 20px; /* space between text and image */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
   }
   
   .project-text {
@@ -285,7 +289,7 @@ header nav a:hover {
   }
   
   .project-photo img {
-    width: 300px; /* or another appropriate size */
+    width: 150px; /* or another appropriate size */
     height: auto;
     border-radius: 6px;
   }
