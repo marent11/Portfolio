@@ -274,11 +274,21 @@ header nav a:hover {
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.project-photo img {
-    width: 100px;
-    height: 200px;
+.project-content {
+    display: flex;
+    align-items: flex-start; /* aligns items to the top */
+    gap: 20px; /* space between text and image */
+  }
+  
+  .project-text {
+    flex: 1; /* takes up remaining space */
+  }
+  
+  .project-photo img {
+    width: 300px; /* or another appropriate size */
+    height: auto;
     border-radius: 6px;
-}
+  }
 
 
 .project2 {
@@ -293,11 +303,10 @@ header nav a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
-.project-text {
-    flex: 1;
-    padding-right: 20px;
 
-}
+
+
+
 .personal-details {
     flex: 1;
 }
