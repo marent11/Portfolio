@@ -276,8 +276,8 @@ header nav a:hover {
 }
 .project-content {
     display: flex;
-    align-items: flex-start; /* aligns items to the top */
-    gap: 20px; /* space between text and image */
+    align-items: flex-start; 
+    gap: 20px; 
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     margin-bottom: 20px;
@@ -285,6 +285,9 @@ header nav a:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+  }
+  .project-content:hover {
+    transform: scale(1.02);
   }
   
   .project-text {
